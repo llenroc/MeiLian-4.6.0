@@ -7,6 +7,7 @@ using MeiLian.Chat;
 using MeiLian.Friendships;
 using MeiLian.MultiTenancy;
 using MeiLian.Storage;
+using MeiLian.PaymentCompany;
 
 namespace MeiLian.EntityFramework
 {
@@ -27,6 +28,8 @@ namespace MeiLian.EntityFramework
         public virtual IDbSet<Friendship> Friendships { get; set; }
 
         public virtual IDbSet<ChatMessage> ChatMessages { get; set; }
+
+        public virtual IDbSet<PaymentCompanyEntity> PaymentCompany { get; set; }
 
         public MeiLianDbContext()
             : base("Default")

@@ -357,6 +357,13 @@
     <Compile Include="Organizations\Dto\MoveOrganizationUnitInput.cs" />
     <Compile Include="Organizations\OrganizationUnitAppService.cs" />
     <Compile Include="Organizations\Dto\OrganizationUnitUserListDto.cs" />
+    <Compile Include="PaymentCompany\DTOs\GetPaymentCompanyInput.cs" />
+    <Compile Include="PaymentCompany\DTOs\PaymentCompanyOutput.cs" />
+    <Compile Include="PaymentCompany\DTOs\QueryPaymentCompanyInput.cs" />
+    <Compile Include="PaymentCompany\DTOs\CreatePaymentCompanyInput.cs" />
+    <Compile Include="PaymentCompany\DTOs\UpdatePaymentCompanyInput.cs" />
+    <Compile Include="PaymentCompany\IPaymentCompanyService.cs" />
+    <Compile Include="PaymentCompany\PaymentCompanyService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sessions\Dto\GetCurrentLoginInformationsOutput.cs" />
     <Compile Include="Sessions\Dto\TenantLoginInfoDto.cs" />
